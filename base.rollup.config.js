@@ -19,7 +19,7 @@ export default ({
   output: [
     {
       dir: outputDir,
-      format: 'es',
+      format: 'cjs',
     },
   ],
   plugins: [
