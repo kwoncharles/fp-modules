@@ -1,6 +1,6 @@
 {
   "name": "fp-modules",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/",
   "repository": "https://github.com/kwoncharles/fp-modules.git",
   "author": "Kwoncheol Shin <hello.kwon.charles@gmail.com>",
