@@ -1,0 +1,6 @@
+{
+  "name": "operators",
+  "private": true,
+  "main": "../dist/operators/index.js",
+  "module": "../dist/operators/index.js"
+}

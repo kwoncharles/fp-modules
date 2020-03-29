@@ -1,0 +1,33 @@
+{
+  "name": "fp-modules",
+  "version": "1.0.0",
+  "main": "dist/",
+  "repository": "https://github.com/kwoncharles/fp-modules.git",
+  "author": "Kwoncheol Shin <hello.kwon.charles@gmail.com>",
+  "license": "MIT",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "@rollup/plugin-typescript": "^4.0.0",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "prettier": "^1.19.1",
+    "rollup": "^2.0.6",
+    "rollup-plugin-babel": "^4.4.0",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "build:operators": "rollup --config ./operators.rollup.config.js",
+    "build:core": "rollup --config ./core.rollup.config.js",
+    "build": "yarn build:core && yarn build:operators",
+    "create-package": "rm -rf dist && yarn build && yarn create-types",
+    "create-types": "tsc --emitDeclarationOnly",
+    "lint": "eslint '*/**/*.{ts,js}'"
+  }
+}
