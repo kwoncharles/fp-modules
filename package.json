@@ -1,13 +1,16 @@
 {
   "name": "fp-modules",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/",
   "repository": "https://github.com/kwoncharles/fp-modules.git",
   "author": "Kwoncheol Shin <hello.kwon.charles@gmail.com>",
   "license": "MIT",
   "types": "dist/types/index.d.ts",
   "files": [
-    "/dist"
+    "/dist",
+    "/core",
+    "/operators",
+    "*.d.ts"
   ],
   "devDependencies": {
     "@babel/core": "^7.8.7",

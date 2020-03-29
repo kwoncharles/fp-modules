@@ -1,1 +1,1 @@
-export * from './dist/types/core';
+export * from './dist/types/operators';
