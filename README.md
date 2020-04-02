@@ -52,7 +52,7 @@ const username = mUser
 console.log('username: ', username);
 ```
 
-But you can create your own`core` by extending `Monad` or `Functor`.
+You can create your own `core` by implements `Monad` or `Functor`.
 
 ### License
 

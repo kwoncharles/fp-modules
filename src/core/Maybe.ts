@@ -1,7 +1,6 @@
 import Monad from './Monad';
 
 export default class Maybe<T> implements Monad<T> {
-  // constructor에서 private으로 파라미터를 받으면 자동으로 멤버변수로 할당
   // eslint-disable-next-line
   private constructor(private value: T | null) {}
 
